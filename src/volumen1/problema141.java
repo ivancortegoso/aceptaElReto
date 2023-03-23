@@ -54,5 +54,6 @@ public class problema141 {
 				System.out.println("NO");
 			}
 		}
+		sc.close();
 	}
 }
