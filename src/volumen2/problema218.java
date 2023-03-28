@@ -20,7 +20,6 @@ public class problema218 {
 				postOrder[i] = sc.nextInt();
 			Node root = new Node(postOrder[postOrder.length - 1]);
 			int posRoot = inOrder.get(postOrder[postOrder.length - 1]);
-			Map<Integer, Node> mapNodes = new HashMap<>();
 			// lado Derecho
 			int c = 0;
 			for (int i = nNodos - posRoot - 2; i >= 0; i--) {
