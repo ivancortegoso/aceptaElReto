@@ -6,4 +6,5 @@
  *
  */
 module ProblemasAceptaElReto {
+	requires java.xml;
 }
