@@ -22,9 +22,9 @@ public class Problema139 {
 				System.out.print(itr.next() + " - ");
 			}
 			if(number == 1) {
-			 	System.out.println("1 -> cubinfinito.");
+			 	System.out.println("1 -> cubifinito.");
 			} else {
-				System.out.println(number + " -> no cubinfinito.");
+				System.out.println(number + " -> no cubifinito.");
 			}
 			number = sc.nextInt();
 		}
