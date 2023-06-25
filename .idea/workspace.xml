@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5ab745a-7fb1-4168-9b29-6ebaa249b33d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/volumen6/Problema697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemasAceptaElReto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemasAceptaElReto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema103.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema103.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema108.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema119.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema119.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema131.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema131.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema136.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema136.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema140.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema140.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema141.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema141.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen1/problema146.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen1/problema146.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/Nodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/Nodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/problema203.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/problema203.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/problema218.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/problema218.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/problema251.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/problema251.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/problema280.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/problema280.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen2/problema290.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen2/problema290.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen3/problema310.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen3/problema310.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen3/problema347.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen3/problema347.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen4/problema424.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen4/problema424.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/problema505.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/problema505.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/problema582.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/problema582.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/problema583.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/problema583.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/problema584.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/problema584.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen5/problema596.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen5/problema596.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema621.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema621.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema622.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema622.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema623.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema623.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema624.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema624.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema625.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema625.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema626.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema626.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema627.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema627.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema628.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema628.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema629.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema629.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema630.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema630.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/volumen6/problema632.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/volumen6/problema632.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RcA4hhNJ8gSYt1uPvdl05GYEJs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Problema695" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="volumen6.Problema695" />
+      <module name="ProblemasAceptaElReto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="volumen6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Problema695" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5ab745a-7fb1-4168-9b29-6ebaa249b33d" name="Changes" comment="" />
+      <created>1687538813073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687538813073</updated>
+      <workItem from="1687538817130" duration="4963000" />
+      <workItem from="1687694049924" duration="10376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/volumen6/Problema695.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/volumen6/Problema695.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/volumen6/Problema697.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
