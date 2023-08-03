@@ -1,59 +1,65 @@
 package volumen5;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class problema505 {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		while(sc.hasNext()) {
-			int nDrones = sc.nextInt();
-			int pilasFuncionandoA = sc.nextInt();
-			int pilasFuncionandoB = sc.nextInt();
-			int auxPilasFuncionandoA = 0;
-			int auxPilasFuncionandoB = 0;
-			
-			int[] pilasA = new int[pilasFuncionandoA];
-			int[] pilasB = new int[pilasFuncionandoB];
-			
-			for (int i = 0; pilasFuncionandoA > i; i++) {
-				pilasA[i] = sc.nextInt();
-			}
-			for (int i = 0; pilasFuncionandoB > i; i++) {
-				pilasB[i] = sc.nextInt();
-			}
-			while(pilasFuncionandoA > 0 && pilasFuncionandoB > 0) {
-				Arrays.sort(pilasA, pilasA.length - pilasFuncionandoA + auxPilasFuncionandoA, pilasA.length);
-				Arrays.sort(pilasB, pilasB.length - pilasFuncionandoB + auxPilasFuncionandoB, pilasB.length);
-				auxPilasFuncionandoA = 0;
-				auxPilasFuncionandoB = 0;
-				int horasDeVuelo = 0;
-				for(int i = 0; Math.min(nDrones ,Math.min(pilasFuncionandoA, pilasFuncionandoB)) > i; i++) {
-					if(pilasA[pilasA.length -1 -i] > pilasB[pilasB.length -1 -i]) {
-						pilasA[pilasA.length -1 -i] = pilasA[pilasA.length -1 -i] - pilasB[pilasB.length -1 -i];
-						horasDeVuelo += pilasB[pilasB.length -1 -i];
-						pilasB[pilasB.length -1 -i] = 0;
-						auxPilasFuncionandoB--;
-					} else if(pilasB[pilasB.length -1 -i] > pilasA[pilasA.length -1 -i]) {
-						pilasB[pilasB.length -1 -i] = pilasB[pilasB.length -1 -i] - pilasA[pilasA.length -1 -i];
-						horasDeVuelo += pilasA[pilasA.length -1 -i];
-						pilasA[pilasA.length -1 -i] = 0;
-						auxPilasFuncionandoA--;
-					} else {
-						horasDeVuelo += pilasA[pilasA.length -1 -i];
-						pilasA[pilasA.length -1 -i] = 0;
-						pilasB[pilasB.length -1 -i] = 0;
-						auxPilasFuncionandoA--;
-						auxPilasFuncionandoB--;
-					}
-				}
-				System.out.print(horasDeVuelo + " ");
-				pilasFuncionandoA += auxPilasFuncionandoA;
-				pilasFuncionandoB += auxPilasFuncionandoB;
-			}
-			if(sc.hasNext()) System.out.println("");
-		}
-		sc.close();
-	}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            int drones = sc.nextInt();
+            int pilasA = sc.nextInt();
+            int pilasB = sc.nextInt();
+            Comparator<Integer> reverseComparator = new Comparator<Integer>() {
+                @Override
+                public int compare(Integer a, Integer b) {
+                    return b.compareTo(a);
+                }
+            };
+            Queue<Integer> pilasAQueue = new PriorityQueue<Integer>(pilasA, reverseComparator);
+
+            Queue<Integer> pilasBQueue = new PriorityQueue<Integer>(pilasB, reverseComparator);
+
+            for (int i = 0; i < pilasA; i++) {
+                pilasAQueue.offer(sc.nextInt());
+            }
+            for (int i = 0; i < pilasB; i++) {
+                pilasBQueue.offer(sc.nextInt());
+            }
+            while (!pilasAQueue.isEmpty() && !pilasBQueue.isEmpty()) {
+                int res = 0;
+                List<Integer> pilasAUsadas = new ArrayList<>();
+                List<Integer> pilasBUsadas = new ArrayList<>();
+                int i = 0;
+                for (i = 0; !pilasAQueue.isEmpty() && !pilasBQueue.isEmpty() && i < drones; i++) {
+                    int pilaA = pilasAQueue.poll();
+                    int pilaB = pilasBQueue.poll();
+                    if (pilaA < pilaB) {
+                        res += pilaA;
+                        pilasBUsadas.add(pilaB - pilaA);
+                    } else if (pilaB < pilaA) {
+                        res += pilaB;
+                        pilasAUsadas.add(pilaA - pilaB);
+                    } else {
+                        res += pilaA;
+                    }
+                }
+                for(Integer pila : pilasAUsadas) {
+                    pilasAQueue.offer(pila);
+                }
+                for(Integer pila : pilasBUsadas) {
+                    pilasBQueue.offer(pila);
+                }
+                System.out.print(res + (pilasAQueue.isEmpty() || pilasBQueue.isEmpty() ? "" : " "));
+            }
+            System.out.println("");
+        }
+        sc.close();
+    }
 }
