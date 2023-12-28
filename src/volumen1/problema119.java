@@ -3,26 +3,21 @@ package volumen1;
 import java.util.Scanner;
 
 public class problema119 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		byte numero = sc.nextByte();
-		while(numero > 0) {
-			System.out.println("Hola mundo.");
-			numero--;
+		int n = sc.nextInt();
+		while (n != 0) {
+			int res = 0;
+			int soldados = n;
+			while (soldados > 1) {
+				int formacion = (int) Math.sqrt(soldados);
+				soldados -= formacion * formacion;
+				res += formacion * formacion + formacion * 4;
+			}
+			if (soldados == 1) res += 5;
+			System.out.println(res);
+			n = sc.nextInt();
 		}
 		sc.close();
 	}
 }
-
-/*
- * public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		byte numero = Byte.parseByte(args[0]);
-		while(numero > 0) {
-			System.out.println("Hola mundo.");
-			numero--;
-		}
-	}
- */
